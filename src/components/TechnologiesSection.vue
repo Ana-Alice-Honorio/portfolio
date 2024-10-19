@@ -7,7 +7,16 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1>TechnologiesSection</h1>
+  <div class="blue-bg conteiner" id="technologies">
+    <h1>technologies</h1>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.conteiner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>

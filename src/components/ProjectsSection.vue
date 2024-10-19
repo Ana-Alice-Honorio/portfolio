@@ -7,7 +7,16 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1>ProjectsSection</h1>
+  <div class="ciano-bg conteiner" id="projects">
+    <h1>projetos</h1>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.conteiner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>

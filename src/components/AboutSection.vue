@@ -1,8 +1,8 @@
 <template>
-  <section class="about">
+  <div class="about">
     <h1>Sobre Mim</h1>
-    <p>Conteúdo sobre você aqui.</p>
-  </section>
+    <p>Conteúdo sobre aqui.</p>
+  </div>
 </template>
 
 <style scoped>
@@ -10,5 +10,8 @@
   background-color: #ffffff;
   color: #333;
   padding: 100px 20px;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
 }
 </style>
