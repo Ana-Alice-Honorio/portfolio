@@ -1,23 +1,19 @@
-<script setup lang="ts"></script>
-
 <template>
   <div>
-    <p class="capriola-text purple-txt">Texto usando Capriola.</p>
-    <h1 class="genty ciano-txt">texto usando genty sans</h1>
-    <h1 class="more-sugar pink-txt">texto usando more sugar</h1>
+    <HeaderComponent />
+    <ExperiencesSection />
+    <TechnologiesSection />
+    <ProjectsSection />
+    <ContactSection />
   </div>
 </template>
 
-<style>
-.capriola-text {
-  font-family: 'Capriola', sans-serif;
-}
+<script setup lang="ts">
+import HeaderComponent from '../components/HeaderComponent.vue'
+import ExperiencesSection from '../components/ExperiencesSection.vue'
+import TechnologiesSection from '../components/TechnologiesSection.vue'
+import ProjectsSection from '../components/ProjectsSection.vue'
+import ContactSection from '../components/ContactSection.vue'
+</script>
 
-.genty {
-  font-family: 'Genty sans';
-}
-
-.more-sugar {
-  font-family: 'MoreSugar';
-}
-</style>
+<style scoped></style>
